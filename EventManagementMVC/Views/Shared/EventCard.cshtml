@@ -1,0 +1,36 @@
+﻿
+<div class="col">
+    <div class="card h-100">
+    <div class="card-body" data--h-bstatus="0OBSERVED">
+    <img alt="EventImage" src="/css/sample.jpg" class="card-img-top" />
+        <h5 class="card-title" data--h-bstatus="0OBSERVED" style="margin:5px">Title</h5>
+            <h6 class="card-subtitle text-muted" style="margin:5px" data--h-bstatus="0OBSERVED">Date</h6>
+    <div class="card-body" data--h-bstatus="0OBSERVED">
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" data--h-bstatus="0OBSERVED">
+            More Info
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" data--h-bstatus="0OBSERVED">
+            <div class="offcanvas-header" data--h-bstatus="0OBSERVED">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel" data--h-bstatus="0OBSERVED">EventName</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" data--h-bstatus="0OBSERVED"></button>
+            </div>
+            <div class="offcanvas-body" data--h-bstatus="0OBSERVED">
+               EventDetails
+            </div>
+         </div>
+                @if (User.Identity?.IsAuthenticated ?? false) // here another condition whether the event is soldout or not
+                {
+                    <a class="btn btn-primary" data--h-bstatus="0OBSERVED">
+                        Book Now
+                    </a>
+                    // if it is booked print 
+                }
+                else
+                {
+                    <a asp-action="login" asp-controller="account" class="btn btn-warning" data--h-bstatus="0OBSERVED">
+                        Login to book
+                    </a>
+                }
+    </div>
+    </div>
+</div></div>

@@ -1,0 +1,14 @@
+D:\jobs and interns\EventManagement\EventsCore\bin\Debug\net8.0\EventsCore.deps.json
+D:\jobs and interns\EventManagement\EventsCore\bin\Debug\net8.0\EventsCore.runtimeconfig.json
+D:\jobs and interns\EventManagement\EventsCore\bin\Debug\net8.0\EventsCore.dll
+D:\jobs and interns\EventManagement\EventsCore\bin\Debug\net8.0\EventsCore.pdb
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.AssemblyInfoInputs.cache
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.AssemblyInfo.cs
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.csproj.CoreCompileInputs.cache
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.dll
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\refint\EventsCore.dll
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.pdb
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.genruntimeconfig.cache
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\ref\EventsCore.dll
+D:\jobs and interns\EventManagement\EventsCore\obj\Debug\net8.0\EventsCore.csproj.AssemblyReference.cache
