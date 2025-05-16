@@ -1,3 +1,5 @@
+using EventManagementMVC.Repository;
+
 namespace EventManagementMVC
 {
     public class Program
@@ -8,6 +10,8 @@ namespace EventManagementMVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped(typeof(BookingAPI));
+            builder.Services.AddScoped(typeof(EventsAPI));
 
             var app = builder.Build();
 

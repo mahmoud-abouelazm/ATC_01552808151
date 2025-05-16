@@ -1,4 +1,6 @@
 using EventManagementMVC.Models;
+using EventManagementMVC.ModelView;
+using EventManagementMVC.Repository;
 using EventsCore;
 using EventsCore.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -10,35 +12,26 @@ namespace EventManagementMVC.Controllers
 {
     public class HomeController : Controller
     {
-        public HttpClient client = new HttpClient();
         private readonly ILogger<HomeController> _logger;
-        
-        public HomeController(ILogger<HomeController> logger)
+        private readonly EventsAPI events;
+
+        public HomeController(ILogger<HomeController> logger , EventsAPI events)
         {
             _logger = logger;
-            client.BaseAddress = new Uri("http://localhost:5180/");
-            
+            this.events = events;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            
-            return View();
+            HomeModelView model = new();
+            model.LastEvents = await events.GetEventsAsync(3);
+            model.AllEvents = await events.GetEventsAsync();
+            return View(model);
         }
         public async Task<IActionResult> Events()
         {
-            var res = await client.GetFromJsonAsync<Event>("api/Events?id=2");
-            return Json(res);
+            return Ok();
         }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        
     }
 }

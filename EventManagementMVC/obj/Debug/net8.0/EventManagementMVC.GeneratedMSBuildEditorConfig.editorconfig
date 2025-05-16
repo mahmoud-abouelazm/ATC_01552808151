@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/jobs and interns/EventManagement/EventManagementMVC/Views/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/jobs and interns/EventManagement/EventManagementMVC/Views/Home/events.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxldmVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +48,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/jobs and interns/EventManagement/EventManagementMVC/Views/Home/userIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1c2VySW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jobs and interns/EventManagement/EventManagementMVC/Views/Shared/BookButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvb2tCdXR0b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jobs and interns/EventManagement/EventManagementMVC/Views/Shared/Congratulations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbmdyYXR1bGF0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/jobs and interns/EventManagement/EventManagementMVC/Views/Shared/Error.cshtml]

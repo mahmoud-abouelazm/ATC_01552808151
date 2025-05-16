@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NbTNfnpEM954eQxtbhPi8jMW1wkoMkXPcqQrifV83TU=",
+  "Source": "EventManagmentAuth",
+  "BasePath": "_content/EventManagmentAuth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

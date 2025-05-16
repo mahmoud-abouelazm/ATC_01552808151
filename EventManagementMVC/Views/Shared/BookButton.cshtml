@@ -1,0 +1,13 @@
+﻿@if (User.Identity?.IsAuthenticated ?? false) // here another condition whether the event is soldout or not
+{
+    <a class="btn btn-primary" data--h-bstatus="0OBSERVED" asp-action="book/idhere" asp-controller="events">
+        Book Now
+    </a>
+    // if it is booked print
+}
+else
+{
+    <a asp-action="login" asp-controller="account" class="btn btn-warning" data--h-bstatus="0OBSERVED">
+        Login to book
+    </a>
+}

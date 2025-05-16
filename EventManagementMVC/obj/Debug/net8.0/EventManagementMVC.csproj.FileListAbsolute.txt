@@ -216,6 +216,7 @@ D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\EventMan
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\EventManagementMVC.MvcApplicationPartsAssemblyInfo.cache
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\EventManagementMVC.RazorAssemblyInfo.cache
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\EventManagementMVC.RazorAssemblyInfo.cs
+D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\EventManagementMVC.sourcelink.json
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\staticwebassets.build.json
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\staticwebassets.development.json
 D:\jobs and interns\EventManagement\EventManagementMVC\obj\Debug\net8.0\staticwebassets\msbuild.EventManagementMVC.Microsoft.AspNetCore.StaticWebAssets.props

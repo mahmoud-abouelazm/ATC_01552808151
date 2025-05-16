@@ -4,6 +4,7 @@ using EventsCore.Interfaces;
 using EventsCore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq.Expressions;
 
 namespace EventManagmentAPI.Controllers
 {
@@ -11,6 +12,7 @@ namespace EventManagmentAPI.Controllers
     [ApiController]
     public class Events : ControllerBase
     {
+        Expression<Func<Event , bool>> LaterEvent = (e => e.Date > DateTime.Now);
         private readonly IBaseRepository<Event> eventRepository;
         private readonly ImageHandler imageHandler;
 
@@ -19,7 +21,12 @@ namespace EventManagmentAPI.Controllers
             this.eventRepository = eventRepository;
             this.imageHandler = imageHandler;
         }
-        [HttpGet]
+        [HttpGet("getAll/{count}")]
+        public async Task<IActionResult> GetAllEventsAsync(int count = -1)
+        {
+            return Ok(await eventRepository.GetAllWithConditionAsync(LaterEvent , count));
+        }
+        [HttpGet("{id:int}")]
         public async Task<IActionResult>getEvent(int id)
         {
             var result = await eventRepository.FindByIdAsync(id);
@@ -38,6 +45,12 @@ namespace EventManagmentAPI.Controllers
                 imageUrl = await imageHandler.SaveImageAsync(newEventDTO.Image , "uploads/events")
             };
             await eventRepository.AddAsAsync(_event);
+            return Ok(_event);
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateEvent(Event _event)
+        {
+            await eventRepository.UpdateAsAsync(_event);
             return Ok(_event);
         }
 

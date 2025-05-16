@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\015f5ff2-9f3a-4f3d-a8cb-8f02cce89e54.png",
+      "PackagePath": "staticwebassets\\uploads\\events\\015f5ff2-9f3a-4f3d-a8cb-8f02cce89e54.png"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\09cf671f-5587-489e-a7d0-ecc3b59dd81e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\09cf671f-5587-489e-a7d0-ecc3b59dd81e.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\468f9b44-db9a-4c03-8739-862c2d2a6c46.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\468f9b44-db9a-4c03-8739-862c2d2a6c46.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\491c58b3-f993-4223-903a-5a0f68b262e3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\491c58b3-f993-4223-903a-5a0f68b262e3.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\798dff17-127f-4079-b37a-3b2aa3c201cf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\798dff17-127f-4079-b37a-3b2aa3c201cf.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\7ed21fb4-1ca6-4e78-9677-723a97c60355.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\7ed21fb4-1ca6-4e78-9677-723a97c60355.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\b4bedc64-31f2-4966-bb89-a8677095dcc2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\events\\b4bedc64-31f2-4966-bb89-a8677095dcc2.jpg"
+    },
+    {
+      "Id": "D:\\jobs and interns\\EventManagement\\EventManagmentAPI\\wwwroot\\uploads\\events\\f7578ef0-98ff-47d9-9d0d-23c710c05d82.png",
+      "PackagePath": "staticwebassets\\uploads\\events\\f7578ef0-98ff-47d9-9d0d-23c710c05d82.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EventManagmentAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EventManagmentAPI.props",
+      "PackagePath": "build\\EventManagmentAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EventManagmentAPI.props",
+      "PackagePath": "buildMultiTargeting\\EventManagmentAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EventManagmentAPI.props",
+      "PackagePath": "buildTransitive\\EventManagmentAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

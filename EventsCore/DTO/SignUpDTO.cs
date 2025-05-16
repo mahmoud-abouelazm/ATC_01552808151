@@ -21,5 +21,9 @@ namespace EventsCore.DTO
         [Required]
         [Compare("password", ErrorMessage = "Please rewrite password correctly")]
         public string confirmPassword { get; set; }
+        [Required]
+        [DataType(DataType.PhoneNumber)]
+        public string phoneNumber { get; set; }
+        public string Role { get; set; }
     }
 }
